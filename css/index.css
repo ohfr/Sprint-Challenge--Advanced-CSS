@@ -261,6 +261,8 @@ footer {
 @media (max-width: 500px) {
   .home .walk {
     flex-flow: column nowrap;
+    width: 100%;
+    padding: 15px;
   }
 }
 .home .walk .walk-text {
@@ -321,6 +323,11 @@ footer {
   width: 100%;
   height: auto;
   border-radius: 10px;
+}
+@media (max-width: 500px) {
+  .home .walk .walk-img img {
+    width: 100%;
+  }
 }
 .home .form {
   display: flex;
