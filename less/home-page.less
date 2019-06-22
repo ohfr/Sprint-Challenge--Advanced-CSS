@@ -97,6 +97,11 @@
         color: white;
         font-size: 2rem;
         text-align: center;
+        a {
+          color: white;
+          text-decoration: none;
+        }
+
 
         @media @phone {
           width: 100%;
@@ -106,6 +111,10 @@
       .btn:hover {
         background: white;
         color: @btn-bg-color;
+        a {
+          color: @btn-bg-color;
+          background: white;
+        } 
       }
     }
 
@@ -125,5 +134,41 @@
         border-radius: 10px;
       }
     }
+  }
+  .form {
+    .flexContainer(center, center, column wrap);
+    width: 100%;
+    text-align: center;
+    h4 {
+      font-size: 1.5rem;
+      margin-bottom: 10px;
+    }
+    form {
+      margin-bottom: 20px;
+
+      input:nth-child(2) {
+        margin: 0 10px;
+      }
+
+      input:last-child {
+        margin-left: 40px;
+      }
+      p {
+        margin-top: 10px;
+        font-weight: bold;
+      }
+      button {
+        background: @btn-bg-color;
+        color: white;
+        border-radius: 5px;
+        padding: 5px 10px;
+        margin-top: 10px;
+      }
+      button:hover {
+        background:white;
+        color: @btn-bg-color;
+      }
+    }
+
   }
 }// home

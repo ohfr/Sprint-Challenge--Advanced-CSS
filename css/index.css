@@ -288,6 +288,10 @@ footer {
   font-size: 2rem;
   text-align: center;
 }
+.home .walk .walk-text .btn a {
+  color: white;
+  text-decoration: none;
+}
 @media (max-width: 500px) {
   .home .walk .walk-text .btn {
     width: 100%;
@@ -297,6 +301,10 @@ footer {
 .home .walk .walk-text .btn:hover {
   background: white;
   color: #22283A;
+}
+.home .walk .walk-text .btn:hover a {
+  color: #22283A;
+  background: white;
 }
 .home .walk .walk-img {
   width: 46%;
@@ -313,4 +321,40 @@ footer {
   width: 100%;
   height: auto;
   border-radius: 10px;
+}
+.home .form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: column wrap;
+  width: 100%;
+  text-align: center;
+}
+.home .form h4 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+.home .form form {
+  margin-bottom: 20px;
+}
+.home .form form input:nth-child(2) {
+  margin: 0 10px;
+}
+.home .form form input:last-child {
+  margin-left: 40px;
+}
+.home .form form p {
+  margin-top: 10px;
+  font-weight: bold;
+}
+.home .form form button {
+  background: #22283A;
+  color: white;
+  border-radius: 5px;
+  padding: 5px 10px;
+  margin-top: 10px;
+}
+.home .form form button:hover {
+  background: white;
+  color: #22283A;
 }
