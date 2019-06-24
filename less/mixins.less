@@ -1,1 +1,27 @@
 // Mixins Here
+
+.flexContainer(@align, @justify, @flow) {
+    display: flex;
+    align-items: @align;
+    justify-content: @justify;
+    flex-flow: @flow;
+}
+
+.btnClass(@background, @padding, @width, @radius) {
+    background: @background;
+    padding: @padding;
+    width: @width;
+    border-radius: @radius;
+}
+
+.navAClass {
+    font-size: 2rem;
+    text-decoration: none;
+    color: black;
+    padding-right: 20px;
+}
+
+.btnHover {
+    background: white;
+    color: @btn-bg-color;
+}
